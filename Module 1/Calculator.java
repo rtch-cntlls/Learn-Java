@@ -10,12 +10,14 @@ public class Calculator {
         scanner.nextLine();
 
         System.out.print("Enter second Number: ");
-        secondnum = scanner.nextInt();
+        secondnum = scanner.nextInt();  
         scanner.nextLine();
 
         System.out.println(firstnum + secondnum);
         System.out.println(firstnum - secondnum);
         System.out.println(firstnum * secondnum);
         System.out.println(firstnum / secondnum);
+
+        scanner.close();
     }
 }

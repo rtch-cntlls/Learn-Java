@@ -22,5 +22,7 @@ public class MyProfile {
         System.out.print("Hello, I'm " + name + ", I'm " + age + " years old.\n");
         System.out.print("Course: " + mycourse + "\n");
         System.out.print("My Skills: " + skills);
+
+        scanner.close();
     }
 }
